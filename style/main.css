@@ -1,0 +1,292 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@300&display=swap');
+
+* {
+	/* font-family: 'Nunito', sans-serif; */
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+
+	background: rgb(201, 223, 195);
+	background: linear-gradient(90deg, rgba(201, 223, 195, 1) 13%, rgba(122, 226, 132, 1) 84%);
+	width: 96vw;
+	padding: 30px;
+
+}
+
+b {
+	border-bottom: 1px solid rgb(131, 131, 131);
+}
+
+p {
+	font-weight: 600;
+}
+
+body {
+	font-size: 18px;
+
+}
+
+
+
+
+#root {
+	position: relative;
+}
+
+.loginDiv,
+.regDiv {
+	width: 350px;
+	padding: 30px 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 140px;
+	height: 350px;
+
+	display: flex;
+
+	border-radius: 30px;
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+	background: #7c7c7c;
+	box-shadow: 0px 0px 15px rgb(128, 128, 128);
+	color: white;
+}
+
+.loginDiv input,
+.regDiv input {
+	padding: 10px 20px;
+	border-radius: 30px;
+	font-size: 20px;
+	border: 0;
+	box-shadow: 0px 0px 20px rgb(82, 82, 82);
+}
+
+button {
+	padding: 5px 10px;
+	border-radius: 30px;
+	cursor: pointer;
+	font-size: 18px;
+	user-select: none;
+	border: 0;
+	font-weight: 600;
+	box-shadow: 0px 0px 15px rgb(128, 128, 128);
+
+}
+
+button:hover {
+	background: #768a81;
+}
+
+button:active {
+	background: #9aaa6f;
+}
+
+.buttonAlg {
+	margin: 30px;
+	padding: 10px 20px;
+}
+
+.userBlock {
+	position: absolute;
+	background: #7c7c7c;
+	box-shadow: 0px 0px 15px rgb(128, 128, 128);
+	padding: 30px;
+	top: 10px;
+	right: 30px;
+	border-radius: 20px;
+	font-size: 18px;
+
+}
+
+.userBlock p {
+	color: white;
+	margin-top: 5px;
+}
+
+.product {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 10px;
+	margin-top: 10px;
+	border-bottom: 1px dashed black;
+}
+
+.companiesDiv,
+.myCompaniesDiv,
+.listFood,
+.amountNotOneFood {
+
+	margin: 30px;
+	padding: 20px;
+	width: 700px;
+	background: rgba(205, 230, 190, 0.384);
+	columns: auto;
+	border-radius: 30px;
+	box-shadow: 0px 0px 15px rgb(128, 128, 128);
+}
+
+.companiesDiv h4,
+.myCompaniesDiv h4,
+.listFood h4,
+.amountNotOneFood h4 {
+	display: flex;
+
+	padding: 0px 5px;
+	margin-top: 20px;
+	justify-content: space-between;
+	border-bottom: 2px solid green;
+	columns: auto;
+}
+
+.companiesNo {
+	padding: 10px;
+	margin-top: 10px;
+
+	background: rgba(121, 150, 104, 0.384);
+	columns: auto;
+	border-radius: 15px;
+}
+
+/* .divAmountCan:first-child {
+	color: white;
+	user-select: none;
+	border: none;
+
+} */
+
+.divAmountCan {
+	margin-left: 30px;
+	width: 600px;
+	border: 2px solid red;
+	margin-top: 30px;
+}
+
+.companiesNo span {
+	color: rgb(33, 141, 0);
+}
+
+.myCompaniesDiv {
+	background: rgba(213, 219, 142, 0.384);
+}
+
+.listFood {
+	background: rgba(0, 0, 0, 0.342);
+}
+
+.listFood .companiesNo {
+	background: rgba(255, 255, 255, 0.384);
+}
+
+.myCompaniesDiv .companiesNo {
+	background: rgba(223, 195, 120, 0.384);
+}
+
+.myCompaniesDiv h4 {
+	border-bottom: 2px solid rgb(115, 128, 0);
+}
+
+.algDiv {
+	width: 270px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 1;
+	position: absolute;
+	top: -3px;
+	right: 42%;
+	background: rgb(179, 179, 179);
+	padding: 20px;
+	box-shadow: 0px 0px 15px rgb(128, 128, 128);
+	border-radius: 0px 0px 30px 30px;
+}
+
+.algDiv input {
+	width: 60%;
+	font-size: 14px;
+	padding: 10px 40px;
+	margin-top: 10px;
+	border: 0;
+	box-shadow: 0px 0px 15px rgb(128, 128, 128);
+	border-radius: 30px;
+}
+
+.algDiv button {
+	margin-top: 20px;
+}
+
+.divInputTimeMoney {
+
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.divInputTimeMoney p {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.historyList {
+	position: absolute;
+	top: 300px;
+	color: white;
+	left: 800px;
+	background: rgb(59, 59, 59);
+	padding: 30px;
+	box-shadow: 0px 0px 15px rgb(128, 128, 128);
+	border-radius: 30px;
+}
+
+.infoDiv {
+	margin-bottom: 10px;
+
+
+	padding: 20px;
+	border-bottom: 2px solid black;
+}
+
+.historyList {
+	font-size: 17px;
+}
+
+.cost {
+	margin-top: 10px;
+	border-bottom: 2px solid;
+}
+
+.foodMyIs {
+	margin-left: 30px;
+	width: 600px;
+	padding: 20px;
+	background: #e9c38981;
+
+	border-radius: 30px;
+	box-shadow: 0px 0px 20px rgb(128, 128, 128);
+}
+
+.amountNotOneFood {
+	background: rgb(188, 237, 243);
+}
+
+.table {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+}
+
+.table b {
+	border-bottom: 0;
+	font-weight: 1000;
+	text-align: center;
+}
