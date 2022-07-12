@@ -1,6 +1,8 @@
 # Feed-recommendation-system
 Software module of the decision support subsystem for small agriculture
 
+## [Demo](https://alexxxsandoor.github.io/Feed-recommendation-system/)
+
 
 ENG
 
